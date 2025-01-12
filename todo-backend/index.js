@@ -26,7 +26,6 @@ mongoose.connect(mongo_uri)
     });
 
 
-    // mongodb+srv://shreyanshsri1807:hSNL9hOyHsbH8Sdg@testdb.v9pbz.mongodb.net/?retryWrites=true&w=majority&appName=TestDB
 
 
 app.get('/todos',getTodos);
